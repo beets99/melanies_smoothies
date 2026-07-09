@@ -28,7 +28,6 @@ ingredients_list = st.multiselect(
     , my_dataframe
     , max_selections=5
 )
-search_on=pd_df.loc[pd_df['FRUIT_NAME'] == fruit_chosen, 'SEACH_ON'].iloc[0]
 
 if ingredients_list:
 
